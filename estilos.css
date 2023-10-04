@@ -1,0 +1,21 @@
+.html{
+    font-family: "Monserrat";
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(187, 199, 163) ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
