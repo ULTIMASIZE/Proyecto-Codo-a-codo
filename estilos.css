@@ -1,6 +1,13 @@
+/*  Fonts awesome*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+
+
+
+
 .html{
     font-family: "Monserrat";
-    font-size: 20px;
+    font-size: 10000px;
     scroll-behavior: smooth;
 }
 *{
@@ -8,6 +15,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .header {
     text-align: center;
@@ -19,3 +27,36 @@
     align-items: center;
     }
     
+
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+
+.portada {
+    display: flex;
+    padding: 20px;
+}
+
+.portada-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(187, 199, 163) ;
+    margin-bottom: 0px;
+    
+}
+footer ul{
+    text-align: right;
+}
