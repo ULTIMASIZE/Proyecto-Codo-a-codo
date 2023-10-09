@@ -60,3 +60,33 @@ footer{
 footer ul{
     text-align: right;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:300px 300px 300px;
+    gap: 1px;
+    padding: 1px;
+    background-color: rgb(201, 233, 187);
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .grid-container > div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes button to the bottom */
+    position: relative; /* Needed for absolute positioning */
+  }
+
+  .productos-button{
+    position: absolute;
+    bottom: 10px; /* Adjust this value to control the button's position from the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Center the button horizontally */
+    
+  }
