@@ -1,15 +1,9 @@
-/*  Fonts awesome*/
+/*  Fonts awesome*/ /* Para titulo pruebo cc tipografia Young Serif*/
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Young+Serif&display=swap');
 
 
 
-
-
-.html{
-    font-family: "Monserrat";
-    font-size: 10000px;
-    scroll-behavior: smooth;
-}
 *{
     margin: 0;
     padding: 0;
@@ -20,14 +14,76 @@
 .header {
     text-align: center;
     padding: 20px;
-    background-color: rgb(187, 199, 163) ;
+    background-color: rgb(88, 111, 38) ;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items: center; 
+    }
+
+    .header>div{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+
+    .navegador{
+        color: white;
+        text-decoration: none;
+
+    }
+    nav{
+        max-width: 900px;
+        margin: auto;
+        background-color: gray;
+        font-size: 20px;
+        margin-top: 50px;
+    
     }
     
+    .menu-horizontal{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .menu-horizontal > li > a{
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+    }
+    
+    .menu-horizontal > li:hover{
+        background-color: yellow;
+    }
+    
+    .menu-vertical{
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: aqua;
+    }
+    
+    .menu-horizontal li:hover .menu-vertical{
+        display: block;
+    }
+    
+    .menu-vertical li:hover{
+        background-color: azure;
+    }
+    
+    .menu-vertical li a{
+        display: block;
+        color: red;
+        padding: 15px 15px 15px 20px;
+        text-decoration: none;
 
+}
+.search {
+    cursor: pointer
+    
+}
 ul{
     list-style: none;
 }
