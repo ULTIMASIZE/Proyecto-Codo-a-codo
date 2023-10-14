@@ -48,7 +48,6 @@
 nav{
     max-width: 900px;
     margin: auto;
-    background-color: gray;
     font-size: 20px;
     margin-top: 50px;
 
@@ -64,18 +63,18 @@ nav{
     display: block;
     padding: 15px 20px;
     text-decoration: none;
+    color: white;
 }
 
-.menu-horizontal > li:hover{
+/*.menu-horizontal > li:hover{
     background-color: yellow;
-}
+}*/
 
 .menu-vertical{
     position: absolute;
     display: none;
     list-style: none;
     width: 200px;
-    background-color: aqua;
 }
 
 .menu-horizontal li:hover .menu-vertical{
@@ -88,9 +87,10 @@ nav{
 
 .menu-vertical li a{
     display: block;
-    color: red;
+    color: black;
     padding: 15px 15px 15px 20px;
     text-decoration: none;
+    background-color: cadetblue;
 
 }
     
