@@ -207,3 +207,14 @@ footer ul{
     font-weight: bold;
     font-size: 18px;
 }
+
+p{
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    text-indent: 1.5cm; 
+}
+h2{
+    margin-left: 10%;
+}
