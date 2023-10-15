@@ -43,6 +43,11 @@
     
 }
 
+.logo{
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Hasta aca esta el header */ 
     
 nav{
@@ -117,6 +122,10 @@ ul a{
 .navbar a{
     text-decoration: none;
     margin-left: 10px;
+
+
+/* Aca empieza el footer */
+
 }
 footer{
     padding: 20px;
@@ -125,8 +134,28 @@ footer{
     
 }
 footer{
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.redes-icon{
+    font-size: 1.5em;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.redes li{
+    margin-top: 5px;
+}
+
+.texto-footer{
+    color: red;
+}
+
+/* Aca termina el footer */
 
 .grid-container {
     display: grid;
@@ -220,7 +249,7 @@ h2{
 }
 
 .redes-icon{
-    font-size: 3em;
+    font-size: 1.5em;
     color: white;
     margin-left: 10px;
     margin-right: 10px;
