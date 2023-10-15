@@ -124,8 +124,8 @@ footer{
     margin-bottom: 0px;
     
 }
-footer ul{
-    text-align: right;
+footer{
+    text-align: center;
 }
 
 .grid-container {
@@ -217,4 +217,17 @@ p{
 }
 h2{
     margin-left: 10%;
+}
+
+.redes-icon{
+    font-size: 3em;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.formulario{
+    margin-bottom: 40px;
+    padding-left: 40px;
+    
 }
