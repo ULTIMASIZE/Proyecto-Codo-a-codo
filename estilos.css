@@ -19,7 +19,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
+    position: sticky; 
+    top: 0
     }
     .header>div{
         font-family: 'Montserrat', sans-serif;
@@ -92,10 +94,10 @@ nav{
 
 .menu-vertical li a{
     display: block;
-    color: black;
+    color: white;
     padding: 15px 15px 15px 20px;
     text-decoration: none;
-    background-color: cadetblue;
+    background-color: rgb(88, 111, 38);
 
 }
     
@@ -128,22 +130,21 @@ ul a{
 
 }
 footer{
-    padding: 20px;
+    padding-top: 10px;
     background-color: rgb(88, 111, 38) ;
-    margin-bottom: 0px;
+    
     
 }
-footer{
+footer div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 .redes-icon{
     font-size: 1.5em;
     color: white;
-    margin-left: 10px;
-    margin-right: 10px;
+    
     
 }
 
@@ -152,7 +153,12 @@ footer{
 }
 
 .texto-footer{
-    color: red;
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
 }
 
 /* Aca termina el footer */
@@ -163,7 +169,7 @@ footer{
     grid-template-rows:300px 300px 300px;
     gap: 1px;
     padding: 1px;
-    background-color: rgb(201, 233, 187);
+    background-color: white;
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -176,7 +182,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Pushes button to the bottom */
-    position: relative; /* Needed for absolute positioning */
+    /* position: relative; /* Needed for absolute positioning */
   }
 
   .productos-button{
@@ -248,12 +254,7 @@ h2{
     margin-left: 10%;
 }
 
-.redes-icon{
-    font-size: 1.5em;
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 
 .formulario{
     margin-bottom: 40px;
