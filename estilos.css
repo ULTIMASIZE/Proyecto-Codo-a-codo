@@ -129,17 +129,26 @@ ul a{
 /* Aca empieza el footer */
 
 }
-footer{
+.footer {
     padding-top: 10px;
     background-color: rgb(88, 111, 38) ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     
     
 }
-footer div{
-    display: flex;
-    justify-content: space-around;
+.footer div {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+   
 }
 
+footer> div> ul> li> a {
+    text-decoration: none;
+    color: white;
+}
 
 .redes-icon{
     font-size: 1.5em;
@@ -153,12 +162,18 @@ footer div{
 }
 
 .texto-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     color: white;
-    background-color: black;
+    background-color: rgb(13, 14, 13);
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    padding: 10px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    text-align: end;
+    
 }
 
 /* Aca termina el footer */
