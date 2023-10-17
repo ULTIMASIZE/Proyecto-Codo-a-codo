@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonios de Productos Naturales</title>
+  <!-- Agrega enlaces a tus bibliotecas externas si las estás utilizando -->
+  <!-- Por ejemplo, Bootstrap para estilos -->
+  <!-- <link rel="stylesheet" href="link_a_bootstrap.css"> -->
+  <style>
+    .testimonio {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="testimonios-container"></div>
+
+  <script>
+    const testimoniosContainer = document.getElementById('testimonios-container');
+
+    fetch('https://randomuser.me/api/?results=5') // Obtén 5 resultados aleatorios
+      .then(response => response.json())
+      .then(data => {
+        const personas = data.results;
+        personas.forEach(persona => {const testimonio = `Soy ${persona.name.first} ${persona.name.last} y estoy encantado/a con los productos naturales que he comprado en esta tienda. Han mejorado mi vida de muchas maneras.`;
+          const testimonioElement = document.createElement('div');
+          testimonioElement.classList.add('testimonio');
+          testimonioElement.textContent = testimonio;
+          testimoniosContainer.appendChild(testimonioElement);
+        });
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  </script>
+</body>
+
+</html>
+
+    
+  
