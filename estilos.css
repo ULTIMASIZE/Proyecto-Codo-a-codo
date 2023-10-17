@@ -10,6 +10,40 @@
     box-sizing: border-box;
 }
 
+/* Pruebas de estilo trabajando el index como si fuera grid*/
+ .cuerpo-index{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:  rgba(88, 111, 38, 0.226);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10px;
+ }
+
+
+.texto-secundario {
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.imagendeportada{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
 
 .header {
     text-align: start;
@@ -109,17 +143,8 @@ ul a{
     text-decoration: none;
 }
 
-.portada {
-    display: flex;
-    padding: 20px;
-}
 
-.portada-texto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15px;
-}
+
 
 .navbar a{
     text-decoration: none;
