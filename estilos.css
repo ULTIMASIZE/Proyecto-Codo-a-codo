@@ -24,10 +24,12 @@
     font-size: 20px;
     border-radius: 10px;
  }
- .cuerpo-index > div > h2 {
+ .cuerpo-index > div > h2,h3 {
     text-align: center;
-    padding: 2%;
-    margin: 2%;
+    padding: 0.5%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     background-color: rgba(88, 111, 38, 0.226);
