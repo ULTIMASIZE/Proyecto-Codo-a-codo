@@ -23,6 +23,17 @@
     font-size: 20px;
     border-radius: 10px;
  }
+ .cuerpo-index > div > h2 {
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    background-color: rgba(88, 111, 38, 0.226);
+    border-radius: 10px ;
+
+}
+
 
 
 .texto-secundario {
@@ -37,6 +48,13 @@
     margin-bottom: 2%;
     
 }
+.contenedorimagendeportada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 .imagendeportada{
     width: 90%;
@@ -323,9 +341,10 @@ h2{
 
 .cuadro-testimonios{
     background-color: rgb(255, 255, 255);
-    border: 1px solid green;
-    margin: 20px 20px 20px 20px;
-    padding: 10px
+    border: 1px solid rgb(88, 111, 38);
+    margin: 2%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
