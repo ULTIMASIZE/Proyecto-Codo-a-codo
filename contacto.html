@@ -59,11 +59,27 @@
 <style>
     .division{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        margin: 2%;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Imagenes/contactanos.png);
+        border-radius: 10px;
+
     }
+    .fondoformulario{
+        background-color: rgb(255, 255, 255, 0.9);
+        border-radius: 2px;
+        width: 100%;        
+    }
+   
 </style>
 <section class="division">
     <div>
+
+    </div>
+
+    <div class = "fondoformulario">
         <form>
             <div class="mb-3">
                 <label for="" class="form-label"> Nombre</label>
@@ -132,24 +148,16 @@
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </div>
-    <!-- no borrar este div es para que separe el formulario en dos partes, ver si funciona sino borrar -->
-
     <div>
-
-
 
     </div>
 </section>
-
-
 <!-- formulario por bootstrap-->
     <footer class="footer">
         <div>
             <ul>
                 Nosotros
                 <li>Quienes somos</li>
-                <li>2</li>
-                <li>3</li>
             </ul>
         </div>
         <div>
