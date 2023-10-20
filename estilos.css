@@ -10,6 +10,19 @@
     box-sizing: border-box;
 }
 
+.portada{
+    background-image: url(Imagenes/plato_bien_comer_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+
+    
+}
+
 /* Pruebas de estilo trabajando el index como si fuera grid*/
  .cuerpo-index {
     margin-top: 2%;
@@ -21,8 +34,9 @@
     background-color:  rgba(88, 111, 38, 0.226);
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 10px;
+    letter-spacing: 2px;
  }
  .cuerpo-index > div > h2,h3 {
     text-align: center;
@@ -54,12 +68,17 @@
     grid-column-end: 3 ;
     background-color: rgb(255, 255, 255);
     font-style: italic;
-    font-size: 16px;
+    font-size: 30px;
     padding-bottom: 10px;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
-    
+    letter-spacing: 2px;
+}
+
+.frase{
+    font-weight: bold;
+    color: green;
 }
 .contenedorimagendeportada{
     display: flex;
@@ -71,17 +90,32 @@
 .imagendeportada, .videos{
     width: 90%;
     margin: 5%;
+    height: 400px;
     border-radius: 10px;
 
 }
 .mapa {
     display: flex;
-    justify-content: end;
-    margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
 .mapa2{
     border-radius: 10px;
 }
+
+.texto-mapa{
+    font-size: 20px;
+    color: rgb(31, 29, 29);
+    letter-spacing: 3px;
+    }
+.direccion{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    }
 .header {
     text-align: start;
     padding: 20px;
@@ -372,8 +406,15 @@ h2{
     margin: 2%;
     padding: 10px;
     border-radius: 10px;
-}
-
+    color: rgb(172, 38, 38);
+    font-style: italic;
+    }
+.cuadro-testimonios p::first-line{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    }
 
 /*Quienes somos*/
 

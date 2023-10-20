@@ -4,6 +4,7 @@ const testimonios = [
     "Nunca creí en los productos naturales, pero estos realmente funcionan. Mi energía ha aumentado y me siento genial.",
     "¡Increíbles productos naturales! Han transformado mi rutina diaria y me siento mucho mejor desde que los incorporé.",
     "Los productos naturales de esta tienda son mi secreto para mantenerme saludable y lleno de energía. ¡Los recomiendo totalmente!"
+    
   ];
 
   const testimoniosContainer = document.getElementById('testimonios-container');
