@@ -373,11 +373,12 @@ footer> div> ul> li> a {
 }
 
 p{
+    margin-right: 5%;
+    margin-left: 5%;
     margin-top: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
     text-align: justify;
     text-indent: 1.5cm; 
+    font-family: 'Montserrat', sans-serif; ;
 }
 h2{
     margin-left: 10%;
@@ -417,6 +418,24 @@ h2{
     }
 
 /*Quienes somos*/
+
+.contenedorquienessomos{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.imagenquienessomos{
+    margin: 2%;
+    text-align: center;
+}
+.listadodenosotros{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    text-align: justify;
+    text-indent: 1.5cm; 
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
