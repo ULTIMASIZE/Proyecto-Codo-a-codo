@@ -108,6 +108,7 @@
     font-size: 20px;
     color: rgb(31, 29, 29);
     letter-spacing: 3px;
+    display: grid;
     }
 .direccion{
     color: rgb(0, 0, 0);
@@ -435,6 +436,66 @@ h2{
     text-align: justify;
     text-indent: 1.5cm; 
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Dispositivos pequeños*/
+@media screen and (min-width:0px) and
+(max-width:672px) {
+
+    .header{
+        grid-template-columns:min-content;
+        text-align: center;
+        }
+        .header div{
+            margin-bottom: 15px;
+        }
+    .cuerpo-index{
+        grid-template-columns:auto;  
+    }
+    .texto-secundario{
+        grid-template-columns:auto;
+    }
+    .cuadro-testimonios{
+        text-align: justify;
+    }
+    .texto-mapa{
+        text-align: center;
+    }
+    .mapa{
+        width: 100%;
+        flex-wrap: wrap;
+          }
+          .mapa p{
+            text-align: center;
+          }
+    .mapa2{
+        margin-right: auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .direccion{
+        margin-bottom: 30px;
+    }
+
+
+
+/*Dispositivos medianos*/
+@media screen and (min-width:673px) and
+(max-width:990px) {
+
+
+
+
+
+
+
+
+
+/*Dispositivos grandes*/
+@media screen and (min-width:991px) and
+(max-width:1296px) {
+
 }
 
 
