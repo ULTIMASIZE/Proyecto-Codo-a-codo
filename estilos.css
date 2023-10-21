@@ -293,6 +293,62 @@ footer> div> ul> li> a {
 
 /* Aca termina el footer */
 
+/* Aca empieza nuestros productos */
+
+/* Animation property */
+
+
+.proximamente {
+    width: 50%;
+    height: 70px;
+    margin: auto;
+    border-radius: 5px;
+    background: #56aa12;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 4s infinite; /* 4s is the duration, set it to your preference */
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #56aa12;
+    }
+    50% {
+      background-color: #739156;
+    }
+    100% {
+      background-color: #56aa12;
+    }
+  }
+  
+  /* Remove the background-color change from :hover */
+  
+.animacion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.3em;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: 0cm;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.texto-productos{
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    text-indent: 0cm; 
+    font-family: 'Montserrat', sans-serif;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -307,21 +363,17 @@ footer> div> ul> li> a {
   .grid-container > div {
     background-color: rgb(255, 255, 255);
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Pushes button to the bottom */
-    /* position: relative; /* Needed for absolute positioning */
   }
 
-  .productos-button{
-    position: absolute;
-    bottom: 10px; /* Adjust this value to control the button's position from the bottom */
-    left: 50%; /* Center the button horizontally */
-    transform: translateX(-50%); /* Center the button horizontally */
-    
-  }
+
 
   body {
     font-family: Arial, sans-serif;
@@ -379,7 +431,7 @@ p{
     margin-top: 20px;
     text-align: justify;
     text-indent: 1.5cm; 
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: 'Montserrat', sans-serif;
 }
 h2{
     margin-left: 10%;
@@ -478,7 +530,7 @@ h2{
         margin-bottom: 30px;
     }
 
-
+}
 
 /*Dispositivos medianos*/
 @media screen and (min-width:673px) and
@@ -491,14 +543,10 @@ h2{
 
 
 
-
+}
 /*Dispositivos grandes*/
 @media screen and (min-width:991px) and
 (max-width:1296px) {
 
 }
-
-
-
-
 
