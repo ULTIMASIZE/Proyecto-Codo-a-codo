@@ -502,6 +502,7 @@ h2{
         .header div{
             margin-bottom: 15px;
         }
+
     .cuerpo-index{
         grid-template-columns:auto;  
     }
@@ -529,6 +530,27 @@ h2{
     .direccion{
         margin-bottom: 30px;
     }
+    .menu-vertical a{
+        text-align: left;
+        }
+
+    .proximamente{
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .proximamente p{
+        width: auto;
+        font-size: 0.9em;
+    }
+    .texto-productos{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .grid-container{
+        grid-template-columns: auto;
+        }
+
 
 }
 
@@ -536,14 +558,68 @@ h2{
 @media screen and (min-width:673px) and
 (max-width:990px) {
 
+    .header h1{
+        font-size: 1.2em;   
+    }
 
+    .search{
+        margin-left: 10px;
+        display: flex;
+        justify-content: end;
+    }
 
+    .navegador li{
+        font-size: 75%;
+        margin-left: 1px;
+    }
 
+    {
+        width: auto;
 
-
-
-
+    }
+    .menu-vertical a{
+        list-style: none;
+        width: 140px;
+        text-align: left;
+        font-size: medium;  
+        }
+    .cuerpo-index{
+        grid-template-columns:auto;  
+    }
+    .texto-mapa{
+        text-align: center;
+    }
+    .mapa{
+        width: 100%;
+        flex-wrap: wrap;
+          }
+          .mapa p{
+            text-align: center;
+          }
+    .mapa2{
+        margin-right: auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .direccion{
+        margin-bottom: 30px;
+    }
+    .proximamente{
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .proximamente p{
+        width: auto;
+    }
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
+
+
+
 /*Dispositivos grandes*/
 @media screen and (min-width:991px) and
 (max-width:1296px) {
