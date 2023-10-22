@@ -1,9 +1,9 @@
 const testimonios = [
-    "Estoy encantado con los productos naturales que compré en esta tienda. Han cambiado mi vida para mejor.",
-    "Los productos naturales de esta tienda son increíbles. Mi salud ha mejorado significativamente desde que los empecé a usar.",
-    "Nunca creí en los productos naturales, pero estos realmente funcionan. Mi energía ha aumentado y me siento genial.",
-    "¡Increíbles productos naturales! Han transformado mi rutina diaria y me siento mucho mejor desde que los incorporé.",
-    "Los productos naturales de esta tienda son mi secreto para mantenerme saludable y lleno de energía. ¡Los recomiendo totalmente!"
+    "Los productos naturales revitalizaron mi energía y bienestar. ¡Una decisión saludable que nunca lamentaré!",
+    "Mi digestión mejoró enormemente con estos productos naturales. ¡Gracias por cambiar mi vida!",
+    "Mejor sueño y menos estrés desde que comencé a usar estos productos naturales. ¡Un alivio!",
+    "Mi piel nunca lució mejor. Productos naturales = confianza renovada.",
+    "Productos naturales: mi aliado para un equilibrio en la vida. ¡Me siento increíblemente bien!"
     
   ];
 

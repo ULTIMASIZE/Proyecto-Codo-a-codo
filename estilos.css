@@ -34,7 +34,7 @@
     background-color:  rgba(88, 111, 38, 0.226);
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 1.3em;
     border-radius: 10px;
     letter-spacing: 2px;
  }
@@ -68,7 +68,7 @@
     grid-column-end: 3 ;
     background-color: rgb(255, 255, 255);
     font-style: italic;
-    font-size: 30px;
+    font-size: 1.5em;
     padding-bottom: 10px;
     margin-left: 2%;
     margin-right: 2%;
