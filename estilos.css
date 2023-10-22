@@ -251,6 +251,7 @@ ul a{
     
     
     
+    
 }
 .footer div {
     font-family: 'Montserrat', sans-serif;
@@ -289,6 +290,11 @@ footer> div> ul> li> a {
     grid-column-end: 4 ;
     text-align: end;
     
+}
+
+.footer-href{
+    text-decoration: none;
+    color: white;
 }
 
 /* Aca termina el footer */
@@ -463,12 +469,15 @@ h2{
     color: rgb(172, 38, 38);
     font-style: italic;
     }
-.cuadro-testimonios p::first-line{
+
+
+.titulo-testimonios{
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    }
+    text-align: center;
+}    
 
 /*Quienes somos*/
 
@@ -573,10 +582,6 @@ h2{
         margin-left: 1px;
     }
 
-    {
-        width: auto;
-
-    }
     .menu-vertical a{
         list-style: none;
         width: 140px;
